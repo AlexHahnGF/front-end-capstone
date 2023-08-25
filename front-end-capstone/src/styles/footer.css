@@ -1,9 +1,10 @@
-.container {
+.footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     margin: auto;
+    background-color: #efefef;
 }
 
 .footer-elements ul {

@@ -1,10 +1,10 @@
-import { ReactComponent as Brand } from '../icons_assets/Logo.svg'
+// import { ReactComponent as Brand } from '../icons_assets/Logo.svg'
 import '../styles/footer.css'
 
 export default function Footer() {
     return (
         <footer className='footer'>
-            <div className='container'>
+            <div className='footer-container'>
                 <div className='footer-logo'>
                     {/* <Brand /> */}
                     ©Little Lemon
