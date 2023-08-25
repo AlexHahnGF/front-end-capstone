@@ -2,6 +2,8 @@
 
 export default function Header() {
     return (
-        <header></header>
+        <header>
+            Header here
+        </header>
     )
 }

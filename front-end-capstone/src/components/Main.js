@@ -1,12 +1,14 @@
-
-
+import '../styles/main.css'
 
 export default function Main() {
     return (
         <main>
-            <h2>Specials</h2>
-            <section>
-            </section>
+                <div className="specials-header">
+                    <h2>Specials</h2>
+                </div>
+                <section>
+                    main section
+                </section>
         </main>
     )
 }
