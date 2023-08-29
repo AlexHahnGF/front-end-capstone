@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     margin: auto;
     background-color: #efefef;
 }
@@ -13,7 +13,12 @@
     list-style-type: none;
 }
 
+.footer-elements li {
+    margin: 1rem 1rem;
+}
+
 .footer-elements ul button {
+    text-align: center;
     background: none;
     cursor: pointer;
     border: none;

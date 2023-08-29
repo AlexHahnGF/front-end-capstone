@@ -3,16 +3,22 @@ import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
         <Nav />
         <Header />
         <Main />
         <Footer />
-    </BrowserRouter>
+    </>
+    // <BrowserRouter>
+    //     <Nav />
+    //     <Header />
+    //     <Main />
+    //     <Footer />
+    // </BrowserRouter>
   );
 }
 

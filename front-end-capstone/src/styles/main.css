@@ -1,12 +1,33 @@
-main {
+
+.main-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 0.75fr 1fr 1fr 1fr 0.75fr;
     grid-template-rows: 1fr 3fr;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .specials-header {
-    background-color: aqua;
-    grid-column: 1/ span 3;
-    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    grid-column: 1/ span 2;
+    text-align: left;
+    line-height: 2.5rem;
 }
+
+.specials-header {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+}
+
+.card-title {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 8px;
+    margin: 0;
+}
+
