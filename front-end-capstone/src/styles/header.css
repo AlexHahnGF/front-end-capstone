@@ -20,7 +20,7 @@
 
 .header-title {
     color: var(--primary-yellow);
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 
 .header-text {
@@ -33,13 +33,18 @@
     line-height: 150%;
 }
 
-.header-foto > img {
-    flex-shrink: 0;
+.header-foto {
     position: relative;
     top: 4rem;
-    width: 70%;
-    min-height: 300px;
-    max-height: 300px;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-foto > img {
+    flex-shrink: 0;
+    width: 280px;
+    height: 300px;
     border-radius: 16px;
     object-fit: cover;
+    z-index: -1;
 }

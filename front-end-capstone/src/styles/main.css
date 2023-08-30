@@ -2,9 +2,11 @@
 .main-container {
     display: grid;
     grid-template-columns: 0.75fr 1fr 1fr 1fr 0.75fr;
-    grid-template-rows: 1fr 3fr;
     background-color: white;
+    gap: 4rem;
+    /* overflow-x: auto; */
 }
+
 
 .specials-header {
     margin-top: 5rem;
@@ -26,8 +28,49 @@
     font-weight: bold;
 }
 
-img {
-    border-radius: 8px;
-    margin: 0;
+
+img[class|="chakra"] {
+    width: auto;
+    height: 300px;
+    /* max-height: 250px; */
+    position: relative;
+    top: -1rem;
+    object-fit: cover;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
+
+
+@media (max-width: 750px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .main-container {
+        display: grid;
+        /* grid-auto-columns: minmax(0, 1fr);
+        grid-auto-flow: column; */
+        grid-template-columns: auto;
+        /* grid-template-rows: 1fr min-content min-content min-content 1fr; */
+        /* background-color: white; */
+        /* gap: 4rem; */
+        /* overflow: scroll; */
+        overflow-x: auto;
+    }
+
+    img[class|="chakra"] {
+        width: auto;
+        height: 30rem;
+        /* max-height: 250px; */
+        position: relative;
+        top: -1rem;
+        object-fit: cover;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+}
+
+
 

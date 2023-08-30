@@ -74,7 +74,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -83,6 +83,7 @@
   .nav-elements {
     position: absolute;
     right: 0;
+    z-index: 5;
     top: 60px;
     background-color: white;
     width: 0px;
